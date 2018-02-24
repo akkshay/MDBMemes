@@ -8,12 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		16DF4BEE204170E400EDCB55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4BED204170E400EDCB55 /* AppDelegate.swift */; };
-		16DF4BF0204170E400EDCB55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4BEF204170E400EDCB55 /* ViewController.swift */; };
 		16DF4BF3204170E400EDCB55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DF4BF1204170E400EDCB55 /* Main.storyboard */; };
 		16DF4BF5204170E400EDCB55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16DF4BF4204170E400EDCB55 /* Assets.xcassets */; };
 		16DF4BF8204170E400EDCB55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DF4BF6204170E400EDCB55 /* LaunchScreen.storyboard */; };
 		16DF4C03204170E400EDCB55 /* MDBMemesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4C02204170E400EDCB55 /* MDBMemesTests.swift */; };
 		16DF4C0E204170E400EDCB55 /* MDBMemesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4C0D204170E400EDCB55 /* MDBMemesUITests.swift */; };
+		16DF4C282041740800EDCB55 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4C272041740800EDCB55 /* User.swift */; };
+		16DF4C2A2041741000EDCB55 /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4C292041741000EDCB55 /* Meme.swift */; };
+		16DF4C2D2041744F00EDCB55 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4C2C2041744F00EDCB55 /* InitialViewController.swift */; };
+		16DF4C2F2041745500EDCB55 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4C2E2041745500EDCB55 /* LoginViewController.swift */; };
+		16DF4C312041745B00EDCB55 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4C302041745B00EDCB55 /* FeedViewController.swift */; };
+		16DF4C332041746300EDCB55 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4C322041746300EDCB55 /* FavoritesViewController.swift */; };
+		16DF4C352041746B00EDCB55 /* UploadMemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4C342041746B00EDCB55 /* UploadMemeViewController.swift */; };
+		16DF4C372041747300EDCB55 /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4C362041747300EDCB55 /* LeaderboardViewController.swift */; };
+		16DF4C3D204174A100EDCB55 /* SF-UI-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16DF4C392041749400EDCB55 /* SF-UI-Text-Bold.otf */; };
+		16DF4C3E204174A100EDCB55 /* SF-UI-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16DF4C3C2041749500EDCB55 /* SF-UI-Text-Light.otf */; };
+		16DF4C3F204174A100EDCB55 /* SF-UI-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16DF4C382041749400EDCB55 /* SF-UI-Text-Medium.otf */; };
+		16DF4C40204174A100EDCB55 /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16DF4C3A2041749400EDCB55 /* SF-UI-Text-Regular.otf */; };
+		16DF4C41204174A100EDCB55 /* SF-UI-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16DF4C3B2041749400EDCB55 /* SF-UI-Text-Semibold.otf */; };
+		16DF4C432041758100EDCB55 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4C422041758100EDCB55 /* StatusView.swift */; };
 		1AF240EC71ACE326DB8A3607 /* Pods_MDBMemesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C7CDB2B08D9C4FB1362405 /* Pods_MDBMemesUITests.framework */; };
 		608A3CA2C11EC57445C4CF69 /* Pods_MDBMemesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E9F091D0F487E59BCD81A4 /* Pods_MDBMemesTests.framework */; };
 		81076F3803065A6334B1DE04 /* Pods_MDBMemes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8704E931E19A3C6A186EE69 /* Pods_MDBMemes.framework */; };
@@ -39,7 +52,6 @@
 /* Begin PBXFileReference section */
 		16DF4BEA204170E400EDCB55 /* MDBMemes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDBMemes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16DF4BED204170E400EDCB55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		16DF4BEF204170E400EDCB55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		16DF4BF2204170E400EDCB55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		16DF4BF4204170E400EDCB55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16DF4BF7204170E400EDCB55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +62,20 @@
 		16DF4C09204170E400EDCB55 /* MDBMemesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDBMemesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16DF4C0D204170E400EDCB55 /* MDBMemesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDBMemesUITests.swift; sourceTree = "<group>"; };
 		16DF4C0F204170E400EDCB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16DF4C272041740800EDCB55 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		16DF4C292041741000EDCB55 /* Meme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
+		16DF4C2C2041744F00EDCB55 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		16DF4C2E2041745500EDCB55 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		16DF4C302041745B00EDCB55 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		16DF4C322041746300EDCB55 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		16DF4C342041746B00EDCB55 /* UploadMemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadMemeViewController.swift; sourceTree = "<group>"; };
+		16DF4C362041747300EDCB55 /* LeaderboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
+		16DF4C382041749400EDCB55 /* SF-UI-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Medium.otf"; sourceTree = "<group>"; };
+		16DF4C392041749400EDCB55 /* SF-UI-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Bold.otf"; sourceTree = "<group>"; };
+		16DF4C3A2041749400EDCB55 /* SF-UI-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Regular.otf"; sourceTree = "<group>"; };
+		16DF4C3B2041749400EDCB55 /* SF-UI-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Semibold.otf"; sourceTree = "<group>"; };
+		16DF4C3C2041749500EDCB55 /* SF-UI-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Light.otf"; sourceTree = "<group>"; };
+		16DF4C422041758100EDCB55 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
 		29014965344CDE30220F898C /* Pods-MDBMemesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDBMemesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MDBMemesTests/Pods-MDBMemesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2E28565F6855F6877F20C47F /* Pods-MDBMemesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDBMemesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MDBMemesUITests/Pods-MDBMemesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		31F789FA13EEED47827085A5 /* Pods-MDBMemesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDBMemesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MDBMemesTests/Pods-MDBMemesTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,8 +140,14 @@
 		16DF4BEC204170E400EDCB55 /* MDBMemes */ = {
 			isa = PBXGroup;
 			children = (
+				16DF4C26204173FE00EDCB55 /* Clients */,
+				16DF4C25204173FA00EDCB55 /* Helpers */,
+				16DF4C24204173F500EDCB55 /* Resources */,
+				16DF4C23204173F100EDCB55 /* Lib */,
+				16DF4C22204173EC00EDCB55 /* Views */,
+				16DF4C21204173E400EDCB55 /* Model */,
+				16DF4C20204173D000EDCB55 /* Controllers */,
 				16DF4BED204170E400EDCB55 /* AppDelegate.swift */,
-				16DF4BEF204170E400EDCB55 /* ViewController.swift */,
 				16DF4BF1204170E400EDCB55 /* Main.storyboard */,
 				16DF4BF4204170E400EDCB55 /* Assets.xcassets */,
 				16DF4BF6204170E400EDCB55 /* LaunchScreen.storyboard */,
@@ -140,6 +172,117 @@
 				16DF4C0F204170E400EDCB55 /* Info.plist */,
 			);
 			path = MDBMemesUITests;
+			sourceTree = "<group>";
+		};
+		16DF4C1B2041738100EDCB55 /* InitialViewController */ = {
+			isa = PBXGroup;
+			children = (
+				16DF4C2C2041744F00EDCB55 /* InitialViewController.swift */,
+			);
+			path = InitialViewController;
+			sourceTree = "<group>";
+		};
+		16DF4C1C2041738F00EDCB55 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				16DF4C2E2041745500EDCB55 /* LoginViewController.swift */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		16DF4C1D2041739500EDCB55 /* FeedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				16DF4C302041745B00EDCB55 /* FeedViewController.swift */,
+			);
+			path = FeedViewController;
+			sourceTree = "<group>";
+		};
+		16DF4C1E2041739F00EDCB55 /* FavoritesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				16DF4C322041746300EDCB55 /* FavoritesViewController.swift */,
+			);
+			path = FavoritesViewController;
+			sourceTree = "<group>";
+		};
+		16DF4C1F204173BD00EDCB55 /* UploadMemeViewControlller */ = {
+			isa = PBXGroup;
+			children = (
+				16DF4C342041746B00EDCB55 /* UploadMemeViewController.swift */,
+			);
+			path = UploadMemeViewControlller;
+			sourceTree = "<group>";
+		};
+		16DF4C20204173D000EDCB55 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				16DF4C2B2041743B00EDCB55 /* LeaderboardVIewController */,
+				16DF4C1F204173BD00EDCB55 /* UploadMemeViewControlller */,
+				16DF4C1E2041739F00EDCB55 /* FavoritesViewController */,
+				16DF4C1D2041739500EDCB55 /* FeedViewController */,
+				16DF4C1C2041738F00EDCB55 /* LoginViewController */,
+				16DF4C1B2041738100EDCB55 /* InitialViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		16DF4C21204173E400EDCB55 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				16DF4C272041740800EDCB55 /* User.swift */,
+				16DF4C292041741000EDCB55 /* Meme.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		16DF4C22204173EC00EDCB55 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				16DF4C422041758100EDCB55 /* StatusView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		16DF4C23204173F100EDCB55 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		16DF4C24204173F500EDCB55 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				16DF4C392041749400EDCB55 /* SF-UI-Text-Bold.otf */,
+				16DF4C3C2041749500EDCB55 /* SF-UI-Text-Light.otf */,
+				16DF4C382041749400EDCB55 /* SF-UI-Text-Medium.otf */,
+				16DF4C3A2041749400EDCB55 /* SF-UI-Text-Regular.otf */,
+				16DF4C3B2041749400EDCB55 /* SF-UI-Text-Semibold.otf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		16DF4C25204173FA00EDCB55 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		16DF4C26204173FE00EDCB55 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		16DF4C2B2041743B00EDCB55 /* LeaderboardVIewController */ = {
+			isa = PBXGroup;
+			children = (
+				16DF4C362041747300EDCB55 /* LeaderboardViewController.swift */,
+			);
+			path = LeaderboardVIewController;
 			sourceTree = "<group>";
 		};
 		687FF8A4353CCA806E1E84D3 /* Frameworks */ = {
@@ -281,6 +424,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16DF4C3D204174A100EDCB55 /* SF-UI-Text-Bold.otf in Resources */,
+				16DF4C3E204174A100EDCB55 /* SF-UI-Text-Light.otf in Resources */,
+				16DF4C3F204174A100EDCB55 /* SF-UI-Text-Medium.otf in Resources */,
+				16DF4C40204174A100EDCB55 /* SF-UI-Text-Regular.otf in Resources */,
+				16DF4C41204174A100EDCB55 /* SF-UI-Text-Semibold.otf in Resources */,
 				16DF4BF8204170E400EDCB55 /* LaunchScreen.storyboard in Resources */,
 				16DF4BF5204170E400EDCB55 /* Assets.xcassets in Resources */,
 				16DF4BF3204170E400EDCB55 /* Main.storyboard in Resources */,
@@ -490,8 +638,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16DF4BF0204170E400EDCB55 /* ViewController.swift in Sources */,
+				16DF4C2A2041741000EDCB55 /* Meme.swift in Sources */,
+				16DF4C352041746B00EDCB55 /* UploadMemeViewController.swift in Sources */,
+				16DF4C282041740800EDCB55 /* User.swift in Sources */,
+				16DF4C332041746300EDCB55 /* FavoritesViewController.swift in Sources */,
+				16DF4C432041758100EDCB55 /* StatusView.swift in Sources */,
+				16DF4C372041747300EDCB55 /* LeaderboardViewController.swift in Sources */,
 				16DF4BEE204170E400EDCB55 /* AppDelegate.swift in Sources */,
+				16DF4C2F2041745500EDCB55 /* LoginViewController.swift in Sources */,
+				16DF4C312041745B00EDCB55 /* FeedViewController.swift in Sources */,
+				16DF4C2D2041744F00EDCB55 /* InitialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
