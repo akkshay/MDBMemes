@@ -14,6 +14,9 @@
 		16DF4BF8204170E400EDCB55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DF4BF6204170E400EDCB55 /* LaunchScreen.storyboard */; };
 		16DF4C03204170E400EDCB55 /* MDBMemesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4C02204170E400EDCB55 /* MDBMemesTests.swift */; };
 		16DF4C0E204170E400EDCB55 /* MDBMemesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4C0D204170E400EDCB55 /* MDBMemesUITests.swift */; };
+		1AF240EC71ACE326DB8A3607 /* Pods_MDBMemesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C7CDB2B08D9C4FB1362405 /* Pods_MDBMemesUITests.framework */; };
+		608A3CA2C11EC57445C4CF69 /* Pods_MDBMemesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E9F091D0F487E59BCD81A4 /* Pods_MDBMemesTests.framework */; };
+		81076F3803065A6334B1DE04 /* Pods_MDBMemes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8704E931E19A3C6A186EE69 /* Pods_MDBMemes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,15 @@
 		16DF4C09204170E400EDCB55 /* MDBMemesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDBMemesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16DF4C0D204170E400EDCB55 /* MDBMemesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDBMemesUITests.swift; sourceTree = "<group>"; };
 		16DF4C0F204170E400EDCB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29014965344CDE30220F898C /* Pods-MDBMemesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDBMemesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MDBMemesTests/Pods-MDBMemesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E28565F6855F6877F20C47F /* Pods-MDBMemesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDBMemesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MDBMemesUITests/Pods-MDBMemesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		31F789FA13EEED47827085A5 /* Pods-MDBMemesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDBMemesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MDBMemesTests/Pods-MDBMemesTests.release.xcconfig"; sourceTree = "<group>"; };
+		39E9F091D0F487E59BCD81A4 /* Pods_MDBMemesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDBMemesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CD8BAFD0EEAB1613928F000 /* Pods-MDBMemesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDBMemesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MDBMemesUITests/Pods-MDBMemesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		76036B78A558B60767FC3E2C /* Pods-MDBMemes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDBMemes.release.xcconfig"; path = "Pods/Target Support Files/Pods-MDBMemes/Pods-MDBMemes.release.xcconfig"; sourceTree = "<group>"; };
+		A8704E931E19A3C6A186EE69 /* Pods_MDBMemes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDBMemes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0EB57F5079473623B7FB685 /* Pods-MDBMemes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDBMemes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MDBMemes/Pods-MDBMemes.debug.xcconfig"; sourceTree = "<group>"; };
+		D3C7CDB2B08D9C4FB1362405 /* Pods_MDBMemesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDBMemesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81076F3803065A6334B1DE04 /* Pods_MDBMemes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				608A3CA2C11EC57445C4CF69 /* Pods_MDBMemesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AF240EC71ACE326DB8A3607 /* Pods_MDBMemesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				16DF4C01204170E400EDCB55 /* MDBMemesTests */,
 				16DF4C0C204170E400EDCB55 /* MDBMemesUITests */,
 				16DF4BEB204170E400EDCB55 /* Products */,
+				9EBFB7EB39E457EF83C6A426 /* Pods */,
+				687FF8A4353CCA806E1E84D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = MDBMemesUITests;
 			sourceTree = "<group>";
 		};
+		687FF8A4353CCA806E1E84D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8704E931E19A3C6A186EE69 /* Pods_MDBMemes.framework */,
+				39E9F091D0F487E59BCD81A4 /* Pods_MDBMemesTests.framework */,
+				D3C7CDB2B08D9C4FB1362405 /* Pods_MDBMemesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9EBFB7EB39E457EF83C6A426 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0EB57F5079473623B7FB685 /* Pods-MDBMemes.debug.xcconfig */,
+				76036B78A558B60767FC3E2C /* Pods-MDBMemes.release.xcconfig */,
+				29014965344CDE30220F898C /* Pods-MDBMemesTests.debug.xcconfig */,
+				31F789FA13EEED47827085A5 /* Pods-MDBMemesTests.release.xcconfig */,
+				2E28565F6855F6877F20C47F /* Pods-MDBMemesUITests.debug.xcconfig */,
+				4CD8BAFD0EEAB1613928F000 /* Pods-MDBMemesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16DF4C12204170E400EDCB55 /* Build configuration list for PBXNativeTarget "MDBMemes" */;
 			buildPhases = (
+				1D564FA1958946B44B9540E4 /* [CP] Check Pods Manifest.lock */,
 				16DF4BE6204170E400EDCB55 /* Sources */,
 				16DF4BE7204170E400EDCB55 /* Frameworks */,
 				16DF4BE8204170E400EDCB55 /* Resources */,
+				68B7A8FFC33E97EEFB4598F9 /* [CP] Embed Pods Frameworks */,
+				C1361B13F6A03143FA909A2D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16DF4C15204170E400EDCB55 /* Build configuration list for PBXNativeTarget "MDBMemesTests" */;
 			buildPhases = (
+				52A810167164A1C217B0BFF6 /* [CP] Check Pods Manifest.lock */,
 				16DF4BFA204170E400EDCB55 /* Sources */,
 				16DF4BFB204170E400EDCB55 /* Frameworks */,
 				16DF4BFC204170E400EDCB55 /* Resources */,
+				644BEDB44FCC5004C4EA83AC /* [CP] Embed Pods Frameworks */,
+				FC59418E38E014F42F43416A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16DF4C18204170E400EDCB55 /* Build configuration list for PBXNativeTarget "MDBMemesUITests" */;
 			buildPhases = (
+				3FEF97C4D2977FAFBA3286C7 /* [CP] Check Pods Manifest.lock */,
 				16DF4C05204170E400EDCB55 /* Sources */,
 				16DF4C06204170E400EDCB55 /* Frameworks */,
 				16DF4C07204170E400EDCB55 /* Resources */,
+				957598343BBCF723EF924DDF /* [CP] Embed Pods Frameworks */,
+				AD7B78F278CFAC7BDCBC93C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,188 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D564FA1958946B44B9540E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MDBMemes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FEF97C4D2977FAFBA3286C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MDBMemesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52A810167164A1C217B0BFF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MDBMemesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		644BEDB44FCC5004C4EA83AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MDBMemesTests/Pods-MDBMemesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68B7A8FFC33E97EEFB4598F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MDBMemes/Pods-MDBMemes-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/DGActivityIndicatorView/DGActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/HanekeSwift/Haneke.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DGActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Haneke.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MDBMemes/Pods-MDBMemes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		957598343BBCF723EF924DDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MDBMemesUITests/Pods-MDBMemesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD7B78F278CFAC7BDCBC93C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MDBMemesUITests/Pods-MDBMemesUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1361B13F6A03143FA909A2D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MDBMemes/Pods-MDBMemes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC59418E38E014F42F43416A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MDBMemesTests/Pods-MDBMemesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		16DF4BE6204170E400EDCB55 /* Sources */ = {
@@ -424,6 +655,7 @@
 		};
 		16DF4C13204170E400EDCB55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0EB57F5079473623B7FB685 /* Pods-MDBMemes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +671,7 @@
 		};
 		16DF4C14204170E400EDCB55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76036B78A558B60767FC3E2C /* Pods-MDBMemes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +687,7 @@
 		};
 		16DF4C16204170E400EDCB55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29014965344CDE30220F898C /* Pods-MDBMemesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -470,6 +704,7 @@
 		};
 		16DF4C17204170E400EDCB55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31F789FA13EEED47827085A5 /* Pods-MDBMemesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +721,7 @@
 		};
 		16DF4C19204170E400EDCB55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E28565F6855F6877F20C47F /* Pods-MDBMemesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +737,7 @@
 		};
 		16DF4C1A204170E400EDCB55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CD8BAFD0EEAB1613928F000 /* Pods-MDBMemesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

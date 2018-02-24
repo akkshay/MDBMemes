@@ -1,0 +1,6 @@
+framework module Pods_MDBMemes {
+  umbrella header "Pods-MDBMemes-umbrella.h"
+
+  export *
+  module * { export * }
+}
