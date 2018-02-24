@@ -38,6 +38,8 @@
 		16DF4C5520417EFF00EDCB55 /* FeedViewController-UISetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4C5420417EFF00EDCB55 /* FeedViewController-UISetup.swift */; };
 		16DF4C5820417F1A00EDCB55 /* MemeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4C5720417F1A00EDCB55 /* MemeCollectionViewCell.swift */; };
 		16DF4C5A2041827E00EDCB55 /* LoginViewController-SetupUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4C592041827D00EDCB55 /* LoginViewController-SetupUI.swift */; };
+		16DF4C5C20418BCB00EDCB55 /* FavoritesViewController-CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4C5B20418BCB00EDCB55 /* FavoritesViewController-CollectionView.swift */; };
+		16DF4C5E20418C1A00EDCB55 /* FavoritesViewController-UISetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4C5D20418C1A00EDCB55 /* FavoritesViewController-UISetup.swift */; };
 		1AF240EC71ACE326DB8A3607 /* Pods_MDBMemesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C7CDB2B08D9C4FB1362405 /* Pods_MDBMemesUITests.framework */; };
 		608A3CA2C11EC57445C4CF69 /* Pods_MDBMemesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E9F091D0F487E59BCD81A4 /* Pods_MDBMemesTests.framework */; };
 		81076F3803065A6334B1DE04 /* Pods_MDBMemes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8704E931E19A3C6A186EE69 /* Pods_MDBMemes.framework */; };
@@ -98,6 +100,8 @@
 		16DF4C5420417EFF00EDCB55 /* FeedViewController-UISetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedViewController-UISetup.swift"; sourceTree = "<group>"; };
 		16DF4C5720417F1A00EDCB55 /* MemeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeCollectionViewCell.swift; sourceTree = "<group>"; };
 		16DF4C592041827D00EDCB55 /* LoginViewController-SetupUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginViewController-SetupUI.swift"; sourceTree = "<group>"; };
+		16DF4C5B20418BCB00EDCB55 /* FavoritesViewController-CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavoritesViewController-CollectionView.swift"; sourceTree = "<group>"; };
+		16DF4C5D20418C1A00EDCB55 /* FavoritesViewController-UISetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavoritesViewController-UISetup.swift"; sourceTree = "<group>"; };
 		29014965344CDE30220F898C /* Pods-MDBMemesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDBMemesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MDBMemesTests/Pods-MDBMemesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2E28565F6855F6877F20C47F /* Pods-MDBMemesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDBMemesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MDBMemesUITests/Pods-MDBMemesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		31F789FA13EEED47827085A5 /* Pods-MDBMemesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDBMemesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MDBMemesTests/Pods-MDBMemesTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -229,6 +233,8 @@
 			isa = PBXGroup;
 			children = (
 				16DF4C322041746300EDCB55 /* FavoritesViewController.swift */,
+				16DF4C5B20418BCB00EDCB55 /* FavoritesViewController-CollectionView.swift */,
+				16DF4C5D20418C1A00EDCB55 /* FavoritesViewController-UISetup.swift */,
 			);
 			path = FavoritesViewController;
 			sourceTree = "<group>";
@@ -684,6 +690,7 @@
 			files = (
 				16DF4C5A2041827E00EDCB55 /* LoginViewController-SetupUI.swift in Sources */,
 				16DF4C2A2041741000EDCB55 /* Meme.swift in Sources */,
+				16DF4C5C20418BCB00EDCB55 /* FavoritesViewController-CollectionView.swift in Sources */,
 				16DF4C45204176EE00EDCB55 /* UserAuthHelper.swift in Sources */,
 				16DF4C352041746B00EDCB55 /* UploadMemeViewController.swift in Sources */,
 				16DF4C4F20417C2300EDCB55 /* RestAPIClient-User.swift in Sources */,
@@ -699,6 +706,7 @@
 				16DF4C5120417C5D00EDCB55 /* RestAPIClient-Meme.swift in Sources */,
 				16DF4C2F2041745500EDCB55 /* LoginViewController.swift in Sources */,
 				16DF4C5520417EFF00EDCB55 /* FeedViewController-UISetup.swift in Sources */,
+				16DF4C5E20418C1A00EDCB55 /* FavoritesViewController-UISetup.swift in Sources */,
 				16DF4C472041771600EDCB55 /* RestAPIClient.swift in Sources */,
 				16DF4C312041745B00EDCB55 /* FeedViewController.swift in Sources */,
 				16DF4C2D2041744F00EDCB55 /* InitialViewController.swift in Sources */,

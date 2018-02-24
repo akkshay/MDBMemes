@@ -25,8 +25,7 @@ target 'MDBMemes' do
   pod 'PromiseKit/Alamofire'
   pod 'ObjectMapper'
   pod 'SwiftyBeaver'
-
-
+  
   target 'MDBMemesTests' do
     inherit! :search_paths
     # Pods for testing

@@ -8,6 +8,7 @@
 
 import Foundation
 import ObjectMapper
+import PromiseKit
 
 class User: Mappable {
     
@@ -27,6 +28,10 @@ class User: Mappable {
         profPicUrl                      <- map["profPicUrl"]
         favoriteMemeIds                 <- map["favoriteMemeIds"]
         lastUpdated                     <- (map["lastUpdated"], DateTransform())
+    }
+    
+    static func get(id: String) -> Promise<User> {
+        return RestAPIClient.getUser(id: id)
     }
     
 }

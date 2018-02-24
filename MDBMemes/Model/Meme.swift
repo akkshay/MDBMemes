@@ -34,8 +34,27 @@ class Meme: Mappable {
         return RestAPIClient.getMemes()
     }
     
+    static func get(ids: [String]) -> Promise<[Meme]> {
+        return Promise { fulfill, reject in
+            let group = DispatchGroup()
+            var memes = [Meme]()
+            for id in ids {
+                group.enter()
+                RestAPIClient.getMeme(id: id).then { meme -> Void in
+                    memes.append(meme)
+                    group.leave()
+                }
+            }
+            group.notify(queue: DispatchQueue.main, execute: {
+                fulfill(memes)
+            })
+        }
+    }
+    
     func favorite(userId: String) -> Promise<Meme> {
         return RestAPIClient.favoriteMeme(memeId: memeId!, userId: userId)
     }
+    
+    
     
 }
