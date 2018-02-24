@@ -26,7 +26,18 @@
 		16DF4C3F204174A100EDCB55 /* SF-UI-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16DF4C382041749400EDCB55 /* SF-UI-Text-Medium.otf */; };
 		16DF4C40204174A100EDCB55 /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16DF4C3A2041749400EDCB55 /* SF-UI-Text-Regular.otf */; };
 		16DF4C41204174A100EDCB55 /* SF-UI-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16DF4C3B2041749400EDCB55 /* SF-UI-Text-Semibold.otf */; };
-		16DF4C432041758100EDCB55 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4C422041758100EDCB55 /* StatusView.swift */; };
+		16DF4C432041758100EDCB55 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4C422041758100EDCB55 /* ProgressView.swift */; };
+		16DF4C45204176EE00EDCB55 /* UserAuthHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4C44204176EE00EDCB55 /* UserAuthHelper.swift */; };
+		16DF4C472041771600EDCB55 /* RestAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4C462041771600EDCB55 /* RestAPIClient.swift */; };
+		16DF4C49204177D500EDCB55 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4C48204177D500EDCB55 /* Constants.swift */; };
+		16DF4C4B204177F500EDCB55 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4C4A204177F500EDCB55 /* Utils.swift */; };
+		16DF4C4D20417BB400EDCB55 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16DF4C4C20417BB400EDCB55 /* GoogleService-Info.plist */; };
+		16DF4C4F20417C2300EDCB55 /* RestAPIClient-User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4C4E20417C2300EDCB55 /* RestAPIClient-User.swift */; };
+		16DF4C5120417C5D00EDCB55 /* RestAPIClient-Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4C5020417C5D00EDCB55 /* RestAPIClient-Meme.swift */; };
+		16DF4C5320417EB100EDCB55 /* FeedViewController-CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4C5220417EB100EDCB55 /* FeedViewController-CollectionView.swift */; };
+		16DF4C5520417EFF00EDCB55 /* FeedViewController-UISetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4C5420417EFF00EDCB55 /* FeedViewController-UISetup.swift */; };
+		16DF4C5820417F1A00EDCB55 /* MemeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4C5720417F1A00EDCB55 /* MemeCollectionViewCell.swift */; };
+		16DF4C5A2041827E00EDCB55 /* LoginViewController-SetupUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF4C592041827D00EDCB55 /* LoginViewController-SetupUI.swift */; };
 		1AF240EC71ACE326DB8A3607 /* Pods_MDBMemesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C7CDB2B08D9C4FB1362405 /* Pods_MDBMemesUITests.framework */; };
 		608A3CA2C11EC57445C4CF69 /* Pods_MDBMemesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E9F091D0F487E59BCD81A4 /* Pods_MDBMemesTests.framework */; };
 		81076F3803065A6334B1DE04 /* Pods_MDBMemes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8704E931E19A3C6A186EE69 /* Pods_MDBMemes.framework */; };
@@ -75,7 +86,18 @@
 		16DF4C3A2041749400EDCB55 /* SF-UI-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Regular.otf"; sourceTree = "<group>"; };
 		16DF4C3B2041749400EDCB55 /* SF-UI-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Semibold.otf"; sourceTree = "<group>"; };
 		16DF4C3C2041749500EDCB55 /* SF-UI-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Light.otf"; sourceTree = "<group>"; };
-		16DF4C422041758100EDCB55 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		16DF4C422041758100EDCB55 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		16DF4C44204176EE00EDCB55 /* UserAuthHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthHelper.swift; sourceTree = "<group>"; };
+		16DF4C462041771600EDCB55 /* RestAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPIClient.swift; sourceTree = "<group>"; };
+		16DF4C48204177D500EDCB55 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		16DF4C4A204177F500EDCB55 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		16DF4C4C20417BB400EDCB55 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		16DF4C4E20417C2300EDCB55 /* RestAPIClient-User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RestAPIClient-User.swift"; sourceTree = "<group>"; };
+		16DF4C5020417C5D00EDCB55 /* RestAPIClient-Meme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RestAPIClient-Meme.swift"; sourceTree = "<group>"; };
+		16DF4C5220417EB100EDCB55 /* FeedViewController-CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedViewController-CollectionView.swift"; sourceTree = "<group>"; };
+		16DF4C5420417EFF00EDCB55 /* FeedViewController-UISetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedViewController-UISetup.swift"; sourceTree = "<group>"; };
+		16DF4C5720417F1A00EDCB55 /* MemeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeCollectionViewCell.swift; sourceTree = "<group>"; };
+		16DF4C592041827D00EDCB55 /* LoginViewController-SetupUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginViewController-SetupUI.swift"; sourceTree = "<group>"; };
 		29014965344CDE30220F898C /* Pods-MDBMemesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDBMemesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MDBMemesTests/Pods-MDBMemesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2E28565F6855F6877F20C47F /* Pods-MDBMemesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDBMemesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MDBMemesUITests/Pods-MDBMemesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		31F789FA13EEED47827085A5 /* Pods-MDBMemesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDBMemesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MDBMemesTests/Pods-MDBMemesTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -152,6 +174,7 @@
 				16DF4BF4204170E400EDCB55 /* Assets.xcassets */,
 				16DF4BF6204170E400EDCB55 /* LaunchScreen.storyboard */,
 				16DF4BF9204170E400EDCB55 /* Info.plist */,
+				16DF4C4C20417BB400EDCB55 /* GoogleService-Info.plist */,
 			);
 			path = MDBMemes;
 			sourceTree = "<group>";
@@ -186,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				16DF4C2E2041745500EDCB55 /* LoginViewController.swift */,
+				16DF4C592041827D00EDCB55 /* LoginViewController-SetupUI.swift */,
 			);
 			path = LoginViewController;
 			sourceTree = "<group>";
@@ -194,6 +218,9 @@
 			isa = PBXGroup;
 			children = (
 				16DF4C302041745B00EDCB55 /* FeedViewController.swift */,
+				16DF4C5220417EB100EDCB55 /* FeedViewController-CollectionView.swift */,
+				16DF4C5420417EFF00EDCB55 /* FeedViewController-UISetup.swift */,
+				16DF4C5620417F0F00EDCB55 /* Cells */,
 			);
 			path = FeedViewController;
 			sourceTree = "<group>";
@@ -239,7 +266,7 @@
 		16DF4C22204173EC00EDCB55 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				16DF4C422041758100EDCB55 /* StatusView.swift */,
+				16DF4C422041758100EDCB55 /* ProgressView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -247,6 +274,8 @@
 		16DF4C23204173F100EDCB55 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				16DF4C48204177D500EDCB55 /* Constants.swift */,
+				16DF4C4A204177F500EDCB55 /* Utils.swift */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -266,6 +295,7 @@
 		16DF4C25204173FA00EDCB55 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				16DF4C44204176EE00EDCB55 /* UserAuthHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -273,6 +303,9 @@
 		16DF4C26204173FE00EDCB55 /* Clients */ = {
 			isa = PBXGroup;
 			children = (
+				16DF4C462041771600EDCB55 /* RestAPIClient.swift */,
+				16DF4C4E20417C2300EDCB55 /* RestAPIClient-User.swift */,
+				16DF4C5020417C5D00EDCB55 /* RestAPIClient-Meme.swift */,
 			);
 			path = Clients;
 			sourceTree = "<group>";
@@ -283,6 +316,14 @@
 				16DF4C362041747300EDCB55 /* LeaderboardViewController.swift */,
 			);
 			path = LeaderboardVIewController;
+			sourceTree = "<group>";
+		};
+		16DF4C5620417F0F00EDCB55 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				16DF4C5720417F1A00EDCB55 /* MemeCollectionViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		687FF8A4353CCA806E1E84D3 /* Frameworks */ = {
@@ -426,6 +467,7 @@
 			files = (
 				16DF4C3D204174A100EDCB55 /* SF-UI-Text-Bold.otf in Resources */,
 				16DF4C3E204174A100EDCB55 /* SF-UI-Text-Light.otf in Resources */,
+				16DF4C4D20417BB400EDCB55 /* GoogleService-Info.plist in Resources */,
 				16DF4C3F204174A100EDCB55 /* SF-UI-Text-Medium.otf in Resources */,
 				16DF4C40204174A100EDCB55 /* SF-UI-Text-Regular.otf in Resources */,
 				16DF4C41204174A100EDCB55 /* SF-UI-Text-Semibold.otf in Resources */,
@@ -542,6 +584,7 @@
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
@@ -562,6 +605,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -638,14 +682,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16DF4C5A2041827E00EDCB55 /* LoginViewController-SetupUI.swift in Sources */,
 				16DF4C2A2041741000EDCB55 /* Meme.swift in Sources */,
+				16DF4C45204176EE00EDCB55 /* UserAuthHelper.swift in Sources */,
 				16DF4C352041746B00EDCB55 /* UploadMemeViewController.swift in Sources */,
+				16DF4C4F20417C2300EDCB55 /* RestAPIClient-User.swift in Sources */,
+				16DF4C4B204177F500EDCB55 /* Utils.swift in Sources */,
+				16DF4C5320417EB100EDCB55 /* FeedViewController-CollectionView.swift in Sources */,
 				16DF4C282041740800EDCB55 /* User.swift in Sources */,
 				16DF4C332041746300EDCB55 /* FavoritesViewController.swift in Sources */,
-				16DF4C432041758100EDCB55 /* StatusView.swift in Sources */,
+				16DF4C432041758100EDCB55 /* ProgressView.swift in Sources */,
 				16DF4C372041747300EDCB55 /* LeaderboardViewController.swift in Sources */,
+				16DF4C5820417F1A00EDCB55 /* MemeCollectionViewCell.swift in Sources */,
+				16DF4C49204177D500EDCB55 /* Constants.swift in Sources */,
 				16DF4BEE204170E400EDCB55 /* AppDelegate.swift in Sources */,
+				16DF4C5120417C5D00EDCB55 /* RestAPIClient-Meme.swift in Sources */,
 				16DF4C2F2041745500EDCB55 /* LoginViewController.swift in Sources */,
+				16DF4C5520417EFF00EDCB55 /* FeedViewController-UISetup.swift in Sources */,
+				16DF4C472041771600EDCB55 /* RestAPIClient.swift in Sources */,
 				16DF4C312041745B00EDCB55 /* FeedViewController.swift in Sources */,
 				16DF4C2D2041744F00EDCB55 /* InitialViewController.swift in Sources */,
 			);

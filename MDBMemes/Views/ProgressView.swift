@@ -1,17 +1,16 @@
 //
-//  StatusView.swift
+//  ProgressView.swift
 //  MDBMemes
 //
-//  Created by Akkshay Khoslaa on 2/23/18.
-//  Copyright © 2018 Akkshay Khoslaa. All rights reserved.
+//  Created by Akkshay Khoslaa on 5/30/16.
+//  Copyright © 2016 Akkshay Khoslaa. All rights reserved.
 //
 
 import UIKit
-
 import DGActivityIndicatorView
 import Spring
 
-class StatusView: UIView {
+class ProgressView: UIView {
     
     private var activityIndicator: DGActivityIndicatorView!
     private var sentLabel: UILabel!
@@ -81,9 +80,10 @@ class StatusView: UIView {
         }
         semaphore.wait(timeout: .now() + .seconds(5))
         dismissAvailable = false
-        DispatchQueue.main.asyncAfter(deadline: .now() + delay, execute: { () -> Void in
+        print("got to hiding \(delay)")
+        DispatchQueue.main.asyncAfter(deadline: .now() + delay, execute: {
             
-            SpringAnimation.springWithCompletion(duration: 0.4, animations: {
+            SpringAnimation.springWithCompletion(duration: 0.4, animations: { 
                 self.alpha = 0
                 self.activityIndicator.alpha = 0
                 self.sentLabel.alpha = 0
@@ -104,6 +104,3 @@ class StatusView: UIView {
     }
     
 }
-
-
-

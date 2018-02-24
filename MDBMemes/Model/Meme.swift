@@ -8,6 +8,7 @@
 
 import Foundation
 import ObjectMapper
+import PromiseKit
 
 class Meme: Mappable {
     
@@ -27,6 +28,14 @@ class Meme: Mappable {
         imageUrl                        <- map["imageUrl"]
         favoriteIds                     <- map["favoriteIds"]
         lastUpdated                     <- (map["lastUpdated"], DateTransform())
+    }
+    
+    static func get() -> Promise<[Meme]> {
+        return RestAPIClient.getMemes()
+    }
+    
+    func favorite(userId: String) -> Promise<Meme> {
+        return RestAPIClient.favoriteMeme(memeId: memeId!, userId: userId)
     }
     
 }

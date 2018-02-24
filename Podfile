@@ -24,7 +24,7 @@ target 'MDBMemes' do
   pod "PromiseKit", "~> 4.0"
   pod 'PromiseKit/Alamofire'
   pod 'ObjectMapper'
-
+  pod 'SwiftyBeaver'
 
 
   target 'MDBMemesTests' do
